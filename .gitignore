@@ -2,3 +2,6 @@ bin/
 obj/
 *.user
 .vs/
+
+# Track the release DLL at the repo root
+!IAYBLeaderboard.dll

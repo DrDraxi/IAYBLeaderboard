@@ -47,6 +47,8 @@ Keep `CHANGELOG.md` updated with an `[Unreleased]` section at the top. When tagg
 
 1. Update `CHANGELOG.md` — move items from `[Unreleased]` to a new version section
 2. Update version in `Mod.cs` (`MelonInfo` attribute)
-3. Commit: `release: v1.x.x`
-4. Tag: `git tag v1.x.x && git push origin v1.x.x`
-5. GitHub Actions builds the DLL and creates a release with changelog notes and the DLL attached
+3. Build: `dotnet build -c Release`
+4. Copy DLL to repo root: `cp "$(GameDir)/Mods/IAYBLeaderboard.dll" .`
+5. Commit: `release: v1.x.x`
+6. Tag and push: `git tag v1.x.x && git push origin master --tags`
+7. GitHub Actions creates a release with changelog notes and the DLL attached automatically
