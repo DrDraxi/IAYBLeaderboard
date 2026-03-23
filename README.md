@@ -11,9 +11,9 @@ A [MelonLoader](https://github.com/LavaGang/MelonLoader) mod for **I Am Your Bea
 - **Auto-sync** — uploads your existing save data to Steam leaderboards on game launch
 - **Live updates** — uploads your score on level completion and refreshes the panel
 
-## Screenshots
+## Screenshot
 
-*TODO: Add screenshots*
+![Leaderboard panels](assets/screenshot.png)
 
 ## Installation
 
